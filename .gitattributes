@@ -1,4 +1,12 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-*.html linguist-vendored
-static/* linguist-vendored
+# Handle python files as text and use python-style diffs
+*.py text diff=python
+*.pyi text diff=python
+
+# Treat compiled python files and databases as binary
+*.pyc binary
+*.pyo binary
+*.pyd binary
+*.db binary
+
+# Ensure Jupyter Notebooks use consistent line endings
+*.ipynb text eol=lf

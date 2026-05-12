@@ -21,3 +21,7 @@ When you extract this, make sure to open the dist folder to find where you can o
 CC BY-NC-SA 4.0 - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
 https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en
+
+P.S:
+
+This was made a long time ago and just got ported to GitHub so it is quite unorganized I apologise 😭
